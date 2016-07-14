@@ -135,8 +135,8 @@ public class GPSHelper {
 //				if (lastState == DetectedActivity.STILL) {
 //					
 //				}
-				// great than 180km/h
-				if (speed >= 50) {
+				// great than 120km/h
+				if (speed >= 33) {
 					log.debug("SKIP FAST " + location + ": " + distance);
 					return false;
 				}
